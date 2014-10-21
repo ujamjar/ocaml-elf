@@ -3,6 +3,7 @@ maintainer: "andy.ray@ujamjar.com"
 homepage: "https://github.com/andrewray/plplot"
 build: [
   ["./configure"]
+  [make]
   [make "install"]
 ]
 remove: [
