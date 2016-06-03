@@ -1,9 +1,14 @@
-opam-version: "1.1"
+opam-version: "1.2"
 maintainer: "andy.ray@ujamjar.com"
+authors: "jyyou@cs.nctu.edu.tw"
 homepage: "https://github.com/ujamjar/ocaml-elf"
+dev-repo: "https://github.com/ujamjar/ocaml-elf"
+bug-reports: "https://github.com/ujamjar/ocaml-elf/issues"
 build: [
   ["./configure"]
   [make]
+]
+install: [
   [make "install"]
 ]
 remove: [
